@@ -1,0 +1,18 @@
+# Flutter
+.dart_tool/
+build/
+.pub-cache/
+
+# Android
+android/.gradle/
+android/local.properties
+
+# iOS
+ios/Pods/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log

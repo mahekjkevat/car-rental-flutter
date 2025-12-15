@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "882165361269",
+    "project_id": "mahek-cafe",
+    "storage_bucket": "mahek-cafe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882165361269:android:85ec0b0eb69510a083263c",
+        "android_client_info": {
+          "package_name": "com.example.mahek_cafe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzySwdVUHOxcVOj2YEfWhQI8LgRSjtdqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

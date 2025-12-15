@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Caramel Macchiato",
+    "type": "coffee",
+    "description": "Espresso layered with steamed milk and rich caramel drizzle.",
+    "price": 169,
+    "rate": 1,
+    "productID": "COFFEE003",
+    "img_url": "https://fra.cloud.appwrite.io/v1/storage/buckets/68f2a07f002878b444a0/files/68f4c177002ed40cd98e/view?project=68f2a01f00207f73a4d3&mode=admin"
+  },
+  {
+    "name": "KitKat Milkshake",
+    "type": "milkshake",
+    "description": "Creamy milkshake blended with KitKat chunks and chocolate syrup.",
+    "price": 199,
+    "rate": 1,
+    "productID": "SHAKE003",
+    "img_url": "https://fra.cloud.appwrite.io/v1/storage/buckets/68f2a07f002878b444a0/files/68f4c158002c650e5d2c/view?project=68f2a01f00207f73a4d3&mode=admin"
+  },
+  {
+    "name": "Lemon Iced Tea",
+    "type": "tea",
+    "description": "Chilled black tea infused with lemon and a hint of mint.",
+    "price": 89,
+    "rate": 1,
+    "productID": "TEA003",
+    "img_url": "https://fra.cloud.appwrite.io/v1/storage/buckets/68f2a07f002878b444a0/files/68f4c18f00226de638f6/view?project=68f2a01f00207f73a4d3&mode=admin"
+  },
+  {
+    "name": "Grilled Veg Panini",
+    "type": "food",
+    "description": "Panini stuffed with grilled vegetables, pesto, and melted cheese.",
+    "price": 149,
+    "rate": 1,
+    "productID": "FOOD003",
+    "img_url": "https://fra.cloud.appwrite.io/v1/storage/buckets/68f2a07f002878b444a0/files/68f4c12e001a69ff7a37/view?project=68f2a01f00207f73a4d3&mode=admin"
+  },
+  {
+    "name": "Cheesy Nachos",
+    "type": "snack",
+    "description": "Crispy nachos topped with melted cheese and jalapeños.",
+    "price": 119,
+    "rate": 1,
+    "productID": "SNACK003",
+    "img_url": "https://fra.cloud.appwrite.io/v1/storage/buckets/68f2a07f002878b444a0/files/68f4c1ad001360512808/view?project=68f2a01f00207f73a4d3&mode=admin"
+  },
+  {
+    "name": "Red Velvet Cupcake",
+    "type": "dessert",
+    "description": "Moist red velvet cupcake with cream cheese frosting.",
+    "price": 89,
+    "rate": 1,
+    "productID": "DESSERT004",
+    "img_url": "https://fra.cloud.appwrite.io/v1/storage/buckets/68f2a07f002878b444a0/files/68f4c0fb00136db8f6fb/view?project=68f2a01f00207f73a4d3&mode=admin"
+  },
+  {
+    "name": "Pineapple Juice",
+    "type": "juice",
+    "description": "Fresh pineapple juice served chilled with no added sugar.",
+    "price": 119,
+    "rate": 1,
+    "productID": "JUICE003",
+    "img_url": "https://fra.cloud.appwrite.io/v1/storage/buckets/68f2a07f002878b444a0/files/68f4c0e8000ae8489a6b/view?project=68f2a01f00207f73a4d3&mode=admin"
+  },
+  {
+    "name": "Farmhouse Pizza",
+    "type": "pizza",
+    "description": "Loaded with capsicum, onion, tomato, and mozzarella cheese.",
+    "price": 229,
+    "rate": 1,
+    "productID": "PIZZA003",
+    "img_url": "https://fra.cloud.appwrite.io/v1/storage/buckets/68f2a07f002878b444a0/files/68f4c0d4001f6767f6ad/view?project=68f2a01f00207f73a4d3&mode=admin"
+  },
+  {
+    "name": "Mocha Frappe",
+    "type": "frappe",
+    "description": "Blended coffee with chocolate syrup and whipped cream.",
+    "price": 179,
+    "rate": 1,
+    "productID": "FRAPPE002",
+    "img_url": "https://fra.cloud.appwrite.io/v1/storage/buckets/68f2a07f002878b444a0/files/68f4c0bf0017efa17177/view?project=68f2a01f00207f73a4d3&mode=admin"
+  },
+  {
+    "name": "Choco Lava Cake",
+    "type": "dessert",
+    "description": "Warm chocolate cake with gooey molten center.",
+    "price": 109,
+    "rate": 1,
+    "productID": "DESSERT005",
+    "img_url": "https://fra.cloud.appwrite.io/v1/storage/buckets/68f2a07f002878b444a0/files/68f4c0a000297a483f9b/view?project=68f2a01f00207f73a4d3&mode=admin"
+  }
+]
