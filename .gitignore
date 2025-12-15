@@ -16,3 +16,8 @@ ios/Pods/
 
 # Logs
 *.log
+
+# Secrets
+*.json
+serviceAccountKey.json
+.env
