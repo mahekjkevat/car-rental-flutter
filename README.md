@@ -1,7 +1,13 @@
-# 🚗 Gear Go – Car Rental Application (Customer App)
+# 🚗 Car Rental Flutter Applications
+
+This repository contains two Flutter applications for a complete car rental system.
+
+---
+
+## 📱 Gear Go – Customer Application
 
 <p align="center">
-  <img src="Screenshots/logo.png" alt="Gear Go Logo" width="160"/>
+  <img src="gear_go/Screenshots/logo.png" width="160" />
 </p>
 
 <p align="center">
@@ -10,21 +16,21 @@
 
 ---
 
-## 📱 Overview
+## 📖 Overview
 
-**Gear Go** is a modern car rental mobile application built using **Flutter**.  
-It allows customers to browse available cars, book rentals, manage bookings, receive notifications, and get personalized recommendations.
+**Gear Go** is a customer-facing car rental mobile application built using **Flutter**.  
+Users can browse vehicles, make bookings, manage rentals, receive notifications, and view invoices.
 
-The app follows a **production-ready architecture**, separating **data storage** and **image storage** for better scalability and performance.
+The app uses a **scalable cloud architecture** where data and images are handled separately.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-- Flutter (Android)
+- Flutter
 - Firebase Authentication
 - Cloud Firestore
-- Appwrite Storage
+- Appwrite Storage (for images)
 - Firebase Cloud Messaging (FCM)
 
 ---
@@ -33,25 +39,23 @@ The app follows a **production-ready architecture**, separating **data storage**
 
 - **Images**
   - Stored in **Appwrite Storage**
-  - Public image URLs saved in **Cloud Firestore**
+  - Image URLs saved in **Firestore**
 
 - **Data**
-  - Users, cars, bookings, notifications stored in **Firestore**
-  - Real-time data synchronization
+  - Users, cars, bookings, notifications stored in **Cloud Firestore**
+  - Real-time updates
 
 ---
 
 ## ✨ Key Features (Customer Side)
 
-- Secure authentication
+- Secure login & authentication
 - Browse cars by brand & location
 - Search & filter vehicles
-- Book cars with pickup & return dates
-- Rental history & invoices
+- Car booking & rental management
 - AI-based recommendations
 - Notification center
-- Profile & account management
-- Real-time cloud data
+- Profile management
 
 ---
 
@@ -61,18 +65,18 @@ The app follows a **production-ready architecture**, separating **data storage**
 
 | | | |
 |---|---|---|
-| ![](Screenshots/01_splash_update_prompt.jpg) | ![](Screenshots/02_welcome_back.jpg) | ![](Screenshots/03_search_home.jpg) |
-| Splash & Update | Welcome | Home / Search |
+| ![](gear_go/Screenshots/01_splash_update_prompt.jpg) | ![](gear_go/Screenshots/02_welcome_back.jpg) | ![](gear_go/Screenshots/03_search_home.jpg) |
+| Splash & Update | Welcome | Home |
 
 | | | |
 |---|---|---|
-| ![](Screenshots/04_my_bookings_list.jpg) | ![](Screenshots/05_ai_recommendations.jpg) | ![](Screenshots/06_notification_centre.jpg) |
+| ![](gear_go/Screenshots/04_my_bookings_list.jpg) | ![](gear_go/Screenshots/05_ai_recommendations.jpg) | ![](gear_go/Screenshots/06_notification_centre.jpg) |
 | My Bookings | AI Recommendations | Notifications |
 
 | | | |
 |---|---|---|
-| ![](Screenshots/07_user_profile.jpg) | ![](Screenshots/08_about_geargo.jpg) | ![](Screenshots/09_all_brands_grid.jpg) |
-| Profile | About App | All Brands |
+| ![](gear_go/Screenshots/07_user_profile.jpg) | ![](gear_go/Screenshots/08_about_geargo.jpg) | ![](gear_go/Screenshots/09_all_brands_grid.jpg) |
+| Profile | About | Brands |
 
 ---
 
@@ -80,31 +84,18 @@ The app follows a **production-ready architecture**, separating **data storage**
 
 | | | |
 |---|---|---|
-| ![](Screenshots/10_search_filter_sheet.jpg) | ![](Screenshots/11_ford_explorer_card.jpg) | ![](Screenshots/12_car_details_gallery.jpg) |
+| ![](gear_go/Screenshots/10_search_filter_sheet.jpg) | ![](gear_go/Screenshots/11_ford_explorer_card.jpg) | ![](gear_go/Screenshots/12_car_details_gallery.jpg) |
 | Filters | Car Card | Gallery |
 
 | | | |
 |---|---|---|
-| ![](Screenshots/13_rental_agreement.jpg) | ![](Screenshots/14_pending_booking_tile.jpg) | ![](Screenshots/15_payment_pending.jpg) |
-| Agreement | Pending Booking | Payment Pending |
+| ![](gear_go/Screenshots/13_rental_agreement.jpg) | ![](gear_go/Screenshots/14_pending_booking_tile.jpg) | ![](gear_go/Screenshots/15_payment_pending.jpg) |
+| Agreement | Pending | Payment |
 
 | | | |
 |---|---|---|
-| ![](Screenshots/16_completed_badge.jpg) | ![](Screenshots/17_invoice_options.jpg) | ![](Screenshots/18_damage_report_form.jpg) |
-| Completed | Invoice Options | Damage Report |
-
-| | | |
-|---|---|---|
-| ![](Screenshots/19_sample_invoice_pdf.jpg) | ![](Screenshots/20_add_car_entry.jpg) | ![](Screenshots/23_login_security_mail.jpg) |
-| Invoice PDF | Add Car | Security Mail |
-
----
-
-## 📌 Notes
-
-- Firebase config files are excluded for security.
-- This repository contains **only the customer app (gear_go)**.
-- Images are stored in **Appwrite Storage**, URLs saved in Firestore.
+| ![](gear_go/Screenshots/16_completed_badge.jpg) | ![](gear_go/Screenshots/17_invoice_options.jpg) | ![](gear_go/Screenshots/18_damage_report_form.jpg) |
+| Completed | Invoice | Damage |
 
 ---
 
