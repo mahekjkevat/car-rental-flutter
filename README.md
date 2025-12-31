@@ -104,7 +104,7 @@ The app follows a **production-ready architecture**, separating **data storage**
 
 - Firebase config files are excluded for security.
 - This repository contains **only the customer app (gear_go)**.
-- Images are hosted via **Appwrite**, not Firestore.
+- Images are stored in **Appwrite Storage**, URLs saved in Firestore.
 
 ---
 
