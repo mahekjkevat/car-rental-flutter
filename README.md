@@ -1,206 +1,155 @@
-# 🚗 Car Rental Flutter Applications
+<div align="center">
 
-This repository contains two Flutter applications for a complete car rental system.
+  <img src="gear_go/Screenshots/logo.png" alt="Gear Go Logo" width="120" />
+  <img src="car_rental_admin/Screenshots/logo.png" alt="Admin Logo" width="120" />
 
----
+  # 🚗 Gear Go Ecosystem
+  **The Complete Flutter Car Rental Solution**
 
-## 📱 Gear Go – Customer Application
+  [![Flutter](https://img.shields.io/badge/Flutter-3.19-%2302569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
+  [![Firebase](https://img.shields.io/badge/Firebase-Backend-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
+  [![Appwrite](https://img.shields.io/badge/Appwrite-Storage-FD366E?style=for-the-badge&logo=appwrite&logoColor=white)](https://appwrite.io)
+  [![Dart](https://img.shields.io/badge/Dart-3.0-%230175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
 
-<p align="center">
-  <img src="gear_go/Screenshots/logo.png" width="160" />
-</p>
-
-<p align="center">
-  <b>Your Journey Starts Here</b>
-</p>
+  <p>
+    <a href="#-gear-go--customer-app">Customer App</a> •
+    <a href="#-car-rental-admin--dashboard">Admin Panel</a> •
+    <a href="#-tech-stack">Tech Stack</a> •
+    <a href="#-installation">Installation</a>
+  </p>
+</div>
 
 ---
 
 ## 📖 Overview
 
-**Gear Go** is a customer-facing car rental mobile application built using **Flutter**.  
-Users can browse vehicles, make bookings, manage rentals, receive notifications, and view invoices.
+**Gear Go** is a production-ready, dual-application system designed to digitize the car rental business. It consists of two synchronized mobile applications sharing a scalable cloud architecture.
 
-The app uses a **scalable cloud architecture** where data and images are handled separately.
-
----
-
-## 🛠 Tech Stack
-
-- Flutter
-- Firebase Authentication
-- Cloud Firestore
-- Appwrite Storage (for images)
-- Firebase Cloud Messaging (FCM)
+| **📱 Customer App** | **🛠 Admin Panel** |
+| :--- | :--- |
+| A B2C application allowing users to browse, book, and track vehicle rentals with AI-driven recommendations. | A management suite for fleet owners to control inventory, validate bookings, and generate financial reports. |
 
 ---
 
-## 🔄 Data Architecture
+## 📱 Gear Go – Customer App
+> **"Your Journey Starts Here"**
 
-- **Images**
-  - Stored in **Appwrite Storage**
-  - Image URLs saved in **Firestore**
+Designed for a seamless user experience, the customer app handles everything from identity verification to vehicle return.
 
-- **Data**
-  - Users, cars, bookings, notifications stored in **Cloud Firestore**
-  - Real-time updates
+### ✨ Key Features
+* 🔐 **Secure Auth:** Google & Email Sign-in via Firebase.
+* 🧠 **AI Recommendations:** Suggests cars based on user history.
+* 📍 **Smart Filters:** Filter by Brand, Type, Price, and Location.
+* 📄 **Digital Contracts:** View rental agreements & PDF invoices.
+* 🔔 **Live Updates:** Real-time push notifications for booking status.
 
----
+### 📸 UI Showcase
 
-## ✨ Key Features (Customer Side)
+<table align="center">
+  <tr>
+    <td align="center"><b>Splash & Onboarding</b></td>
+    <td align="center"><b>Home & Search</b></td>
+    <td align="center"><b>AI Recommendations</b></td>
+  </tr>
+  <tr>
+    <td><img src="gear_go/Screenshots/01_splash_update_prompt.jpg" width="250" /></td>
+    <td><img src="gear_go/Screenshots/03_search_home.jpg" width="250" /></td>
+    <td><img src="gear_go/Screenshots/05_ai_recommendations.jpg" width="250" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Booking Status</b></td>
+    <td align="center"><b>Vehicle Details</b></td>
+    <td align="center"><b>Profile & Settings</b></td>
+  </tr>
+  <tr>
+    <td><img src="gear_go/Screenshots/14_pending_booking_tile.jpg" width="250" /></td>
+    <td><img src="gear_go/Screenshots/12_car_details_gallery.jpg" width="250" /></td>
+    <td><img src="gear_go/Screenshots/07_user_profile.jpg" width="250" /></td>
+  </tr>
+</table>
 
-- Secure login & authentication
-- Browse cars by brand & location
-- Search & filter vehicles
-- Car booking & rental management
-- AI-based recommendations
-- Notification center
-- Profile management
-
----
-
-## 📸 App Screenshots
-
-### 🚀 Core Screens
-
-| | | |
-|---|---|---|
-| ![](gear_go/Screenshots/01_splash_update_prompt.jpg) | ![](gear_go/Screenshots/02_welcome_back.jpg) | ![](gear_go/Screenshots/03_search_home.jpg) |
-| Splash & Update | Welcome | Home |
-
-| | | |
-|---|---|---|
-| ![](gear_go/Screenshots/04_my_bookings_list.jpg) | ![](gear_go/Screenshots/05_ai_recommendations.jpg) | ![](gear_go/Screenshots/06_notification_centre.jpg) |
-| My Bookings | AI Recommendations | Notifications |
-
-| | | |
-|---|---|---|
-| ![](gear_go/Screenshots/07_user_profile.jpg) | ![](gear_go/Screenshots/08_about_geargo.jpg) | ![](gear_go/Screenshots/09_all_brands_grid.jpg) |
-| Profile | About | Brands |
-
----
-
-### 🔍 Advanced Screens
-
-| | | |
-|---|---|---|
-| ![](gear_go/Screenshots/10_search_filter_sheet.jpg) | ![](gear_go/Screenshots/11_ford_explorer_card.jpg) | ![](gear_go/Screenshots/12_car_details_gallery.jpg) |
-| Filters | Car Card | Gallery |
-
-| | | |
-|---|---|---|
-| ![](gear_go/Screenshots/13_rental_agreement.jpg) | ![](gear_go/Screenshots/14_pending_booking_tile.jpg) | ![](gear_go/Screenshots/15_payment_pending.jpg) |
-| Agreement | Pending | Payment |
-
-| | | |
-|---|---|---|
-| ![](gear_go/Screenshots/16_completed_badge.jpg) | ![](gear_go/Screenshots/17_invoice_options.jpg) | ![](gear_go/Screenshots/18_damage_report_form.jpg) |
-| Completed | Invoice | Damage |
+<details>
+<summary><b>🔻 Click to see more Customer Screens</b></summary>
+<br>
+<table align="center">
+  <tr>
+    <td><img src="gear_go/Screenshots/02_welcome_back.jpg" width="200" /></td>
+    <td><img src="gear_go/Screenshots/04_my_bookings_list.jpg" width="200" /></td>
+    <td><img src="gear_go/Screenshots/06_notification_centre.jpg" width="200" /></td>
+  </tr>
+  <tr>
+    <td><img src="gear_go/Screenshots/10_search_filter_sheet.jpg" width="200" /></td>
+    <td><img src="gear_go/Screenshots/13_rental_agreement.jpg" width="200" /></td>
+    <td><img src="gear_go/Screenshots/18_damage_report_form.jpg" width="200" /></td>
+  </tr>
+</table>
+</details>
 
 ---
 
-## 🛠️ Car Rental Admin – Admin Application
+## 🛠 Car Rental Admin – Dashboard
+> **"Complete Fleet Control"**
 
-<p align="center">
-  <img src="car_rental_admin/Screenshots/logo.png" width="160" />
-</p>
+The command center for business owners. Manage your fleet, approve requests, and handle operational issues instantly.
 
-<p align="center">
-  <b>Manage Cars, Bookings & Customers</b>
-</p>
+### ✨ Key Features
+* 📊 **Dashboard Analytics:** Quick view of active, pending, and completed rides.
+* 🚘 **Inventory Management:** Add/Edit cars with Appwrite image hosting.
+* 💬 **WhatsApp Integration:** Automated alerts sent to Admin WhatsApp on new bookings.
+* 📑 **Invoicing:** Generate professional PDF invoices.
+* ⚠️ **Damage Control:** Review user-submitted damage reports with photos.
 
----
+### 📸 UI Showcase
 
-## 📖 Admin App Overview
-
-The **Car Rental Admin App** is designed for administrators and car owners to manage the entire rental system efficiently.  
-It provides full control over cars, bookings, users, payments, and system notifications.
-
-The admin app works in sync with the customer app using **Cloud Firestore** and **Appwrite Storage**.
-
----
-
-## 🛠 Admin Tech Stack
-
-- Flutter
-- Firebase Authentication
-- Cloud Firestore
-- Appwrite Storage (for images)
-- Firebase Cloud Messaging
-- WhatsApp Alerts (Admin notifications)
-
----
-
-## ✨ Admin Features
-
-- Admin authentication & role-based access
-- Add, update & remove cars
-- Manage brands & vehicle listings
-- View & approve bookings
-- Booking status management (Pending / Completed)
-- Invoice generation & download
-- Damage report handling
-- WhatsApp & email alerts
-- Real-time dashboard updates
+<table align="center">
+  <tr>
+    <td align="center"><b>Admin Dashboard</b></td>
+    <td align="center"><b>Booking Management</b></td>
+    <td align="center"><b>Add New Vehicle</b></td>
+  </tr>
+  <tr>
+    <td><img src="car_rental_admin/Screenshots/03_search_home.jpg" width="250" /></td>
+    <td><img src="car_rental_admin/Screenshots/04_my_bookings_list.jpg" width="250" /></td>
+    <td><img src="car_rental_admin/Screenshots/20_add_car_entry.jpg" width="250" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Damage Reports</b></td>
+    <td align="center"><b>WhatsApp Alerts</b></td>
+    <td align="center"><b>PDF Invoices</b></td>
+  </tr>
+  <tr>
+    <td><img src="car_rental_admin/Screenshots/18_damage_report_form.jpg" width="250" /></td>
+    <td><img src="car_rental_admin/Screenshots/21_admin_whatsapp_alert.jpg" width="250" /></td>
+    <td><img src="car_rental_admin/Screenshots/19_sample_invoice_pdf.jpg" width="250" /></td>
+  </tr>
+</table>
 
 ---
 
-## 📸 Admin App Screenshots
+## 🏗 Tech Stack
 
-### 🚀 Core Admin Screens
+The project relies on a **Hybrid Cloud Architecture** to optimize for speed and storage costs.
 
-| | | |
-|---|---|---|
-| ![](car_rental_admin/Screenshots/01_splash_update_prompt.jpg) | ![](car_rental_admin/Screenshots/02_welcome_back.jpg) | ![](car_rental_admin/Screenshots/03_search_home.jpg) |
-| Splash & Update | Admin Login | Dashboard |
-
-| | | |
-|---|---|---|
-| ![](car_rental_admin/Screenshots/04_my_bookings_list.jpg) | ![](car_rental_admin/Screenshots/05_ai_recommendations.jpg) | ![](car_rental_admin/Screenshots/06_notification_centre.jpg) |
-| Booking List | Smart Insights | Notifications |
-
-| | | |
-|---|---|---|
-| ![](car_rental_admin/Screenshots/07_user_profile.jpg) | ![](car_rental_admin/Screenshots/08_about_geargo.jpg) | ![](car_rental_admin/Screenshots/09_all_brands_grid.jpg) |
-| Admin Profile | About System | All Brands |
+| Component | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Frontend** | Flutter (Dart) | Cross-platform mobile UI |
+| **Database** | Cloud Firestore | Real-time NoSQL database |
+| **Storage** | Appwrite Storage | High-performance image hosting |
+| **Auth** | Firebase Auth | Secure user identity management |
+| **Notifications** | FCM | Push notifications for status updates |
+| **External API** | WhatsApp API | Urgent admin alerts |
 
 ---
 
-### 🔍 Admin Management Screens
+## 🚀 Installation
 
-| | | |
-|---|---|---|
-| ![](car_rental_admin/Screenshots/10_search_filter_sheet.jpg) | ![](car_rental_admin/Screenshots/11_ford_explorer_card.jpg) | ![](car_rental_admin/Screenshots/12_car_details_gallery.jpg) |
-| Advanced Filters | Car Card | Car Gallery |
+Follow these steps to set up the ecosystem locally.
 
-| | | |
-|---|---|---|
-| ![](car_rental_admin/Screenshots/13_rental_agreement.jpg) | ![](car_rental_admin/Screenshots/14_pending_booking_tile.jpg) | ![](car_rental_admin/Screenshots/15_payment_pending.jpg) |
-| Rental Agreement | Pending Booking | Payment Pending |
+### Prerequisites
+* Flutter SDK installed
+* Firebase Project created
+* Appwrite Server running (or Cloud)
 
-| | | |
-|---|---|---|
-| ![](car_rental_admin/Screenshots/16_completed_badge.jpg) | ![](car_rental_admin/Screenshots/17_invoice_options.jpg) | ![](car_rental_admin/Screenshots/18_damage_report_form.jpg) |
-| Completed Booking | Invoice Options | Damage Report |
-
----
-
-### 📄 Reports & Alerts
-
-| | | |
-|---|---|---|
-| ![](car_rental_admin/Screenshots/19_sample_invoice_pdf.jpg) | ![](car_rental_admin/Screenshots/20_add_car_entry.jpg) | ![](car_rental_admin/Screenshots/21_admin_whatsapp_alert.jpg) |
-| Invoice PDF | Add New Car | WhatsApp Alert |
-
-| | | |
-|---|---|---|
-| ![](car_rental_admin/Screenshots/22_car_add_whatsapp.jpg) | ![](car_rental_admin/Screenshots/23_login_security_mail.jpg) |  |
-| Car Added Alert | Security Email |  |
-
----
-
-
-## 👨‍💻 Author
-
-**Mahek**  
-Flutter Developer | Firebase | Appwrite
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/yourusername/gear-go-ecosystem.git](https://github.com/yourusername/gear-go-ecosystem.git)
