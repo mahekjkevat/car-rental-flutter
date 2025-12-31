@@ -1,0 +1,137 @@
+name: gear_go
+description: "New Flutter project. -- Mahek Kevat"
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.2 <4.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Icons
+  cupertino_icons:
+
+  # Google Fonts & Typography
+  google_fonts:
+
+  # Firebase Core
+  firebase_core:
+  firebase_auth:
+  cloud_firestore:
+
+  # Location & Maps
+  geolocator:
+  geocoding:
+  flutter_map:
+  latlong2:
+
+  # File & Storage
+  open_file:
+  shared_preferences:
+  cached_network_image:
+
+  # Image Processing
+  image_picker:
+  image_cropper:
+  photo_view:
+
+  # Animations
+  lottie:
+  fade_in_animation:
+  animate_do:
+  loading_animation_widget:
+
+  # UI Components
+  flutter_popup_card:
+  smooth_page_indicator:
+  card_loading:
+  flutter_rating_bar:
+
+  # Notifications & Toast
+  fluttertoast:
+  delightful_toast:
+
+  # Payments
+  razorpay_flutter:
+
+  # Audio
+  audioplayers:
+
+  # Permissions
+  permission_handler:
+
+  # Connectivity
+  connectivity_plus:
+
+  # Machine Learning
+  ml_algo:
+  ml_dataframe:
+  ml_preprocessing:
+
+  # AppWrite
+  appwrite:
+
+  # Utility
+  mediaquery_sizer:
+  flutter_spinkit:
+
+  mailer:
+  speech_to_text:
+  avatar_glow:
+  animated_text_kit:
+  flutter_tts:
+  confetti:
+  flutter_animate:
+
+  reward_popup:
+
+  # Multi Language Support
+  flutter_localizations:
+    sdk: flutter
+  flutter_web_auth_2: ^4.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting
+  flutter_lints:
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/lottie/
+    - assets/music/
+
+  generate: true
